@@ -1,0 +1,5 @@
+Student name: Kian Steffes
+Student number: 682733
+Student class: INf1B
+URL student GitHub website: GeckoChan.github.io
+URL student GitHub repository: https://github.com/GeckoChan/GeckoChan.github.io
