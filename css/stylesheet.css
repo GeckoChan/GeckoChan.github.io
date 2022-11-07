@@ -5,6 +5,8 @@
     {
         display: none;
     }
+    
+    
 }   
 
 /*Tablet Device*/
@@ -13,7 +15,8 @@
     #mobile, #computer
     {
         display: none;
-    }  
+    }
+    
 }
 
 /*Mobile Device*/
@@ -23,5 +26,61 @@
     {
         display: none;
     }  
-
+    
 }
+
+#flex-container
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #00ff00;
+}
+
+#flex-header
+{
+    background-color: #ff0000;
+    flex: 100%;
+}
+
+#flex-nav
+{
+    background-color: chocolate;
+    flex: 100%;
+}
+
+#flex-section
+{
+    background-color: #0000ff;
+    width: 70%;
+}
+
+.flex-ul
+{
+    display: flex;
+}
+
+#flex-aside
+{
+    background-color: #ffff00;
+    width: 30%;
+}
+
+#logo
+{
+    width: 100px;
+    height: 100px;
+}
+
+li
+{
+    margin-right: 20px;
+}
+
+img 
+{
+    width: 400px;
+    height: 400px;
+}
+
+
