@@ -107,7 +107,40 @@
         grid-row: 14 / 16;
     }
 
+    /*end grid pc*/
 
+    /*begin pricing*/
+
+    #pricing-header
+    {
+        background-color: #ff0000;
+        width: 100%;
+    }
+
+    #pricing-table
+    {
+        background-color: #ffff00;
+        width: 80%;
+        height: 700px;
+        float: left;
+    }
+
+    #pricing-section
+    {
+        background-color: #0000ff;
+        width: 20%;
+        height: 700px;
+        float: right;    
+    }
+
+    #pricing-footer
+    {
+        background-color: #ffff00;
+        width: 100%;
+        float:left;
+    }
+
+    /*end pricing*/
 }   
 
 /*Tablet Device*/
@@ -215,7 +248,54 @@
         grid-row: 15 / 17;
     }
 
+    /*begin pricing*/
 
+        #pricing-header
+    {
+        background-color: #ff0000;
+        width: 100%;
+    }
+
+    #pricing-table
+    {
+        background-color: #ffff00;
+        width: 100%;
+        height: 700px;
+    }
+
+    #pricing-section
+    {
+        background-color: #0000ff;
+        width: 100%;
+    }
+
+    /*pricing section > aside*/
+
+    #pricing-aside1
+    {
+        display: none;
+    }
+
+    #pricing-aside2
+    {
+        width:50%;
+        float: left;
+    }
+
+    #pricing-aside3
+    {
+        width:50%;
+        float: right;
+    }
+
+    #pricing-footer
+    {
+        background-color: #ffff00;
+        width: 100%;
+        float:left;
+    }
+
+    /*end pricing*/
 
 }
 
@@ -333,7 +413,58 @@
         grid-row: 19 / 21;
     }
 
+   /* end grid*/
    
+   /*begin pricing*/
+
+   #pricing-header
+   {
+       background-color: #ff0000;
+       width: 50%;
+       float:left;
+   }
+
+   #pricing-table
+   {
+       background-color: #ffff00;
+       width: 100%;
+       height: 700px;
+   }
+
+   #pricing-section
+   {
+       background-color: #0000ff;
+       width: 100%;
+   }
+
+   /*pricing section > aside*/
+
+   #pricing-aside1
+   {
+        width:100%;
+        float: right;
+   }
+
+   #pricing-aside2
+   {
+       width:100%;
+       float: left;
+   }
+
+   #pricing-aside3
+   {
+       width:100%;
+       float: right;
+   }
+
+   #pricing-footer
+   {
+       background-color: #ffff00;
+       width: 100%;
+       float:left;
+   }
+
+   /*end pricing*/
 
 }
 
@@ -371,6 +502,30 @@
     height: 300px;
     flex:100%;
     order: 3;
+}
+
+
+/*end flexbox*/
+
+/* pricing */
+
+#pricing-nav
+{
+    background-color: #00ff00;
+    width: 100%;
+}
+
+.pricing-img
+{
+    width: 60%;
+    height: 60%;
+}
+
+#pricing-article
+{
+    width:100%;
+    float: left;
+    background-color: #00ffff;
 }
 
 
@@ -416,4 +571,9 @@
     right: 0;
     bottom: 0;
     z-index: 9999;
+}
+
+.tablecaption
+{
+    caption-side: bottom;
 }
