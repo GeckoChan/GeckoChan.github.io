@@ -5,6 +5,7 @@
     {
         display: none;
     }
+
     #flex-aside
     {
         background-color: #ffff00;
@@ -425,6 +426,11 @@
         display: none;
     }  
 
+    header
+    {
+        height: 15vh;
+    }
+
     #flex-aside
     {
         order: 2;
@@ -784,13 +790,54 @@ a:active
     color: #ffff00;
 }
 
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
 /*begin hamburger menu*/
+
 #hamburger
 {
     opacity: 0%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
 }
 
-.hamburger-nav
+#hamburger:checked ~ #hamburgermenu-enabled
 {
-    background-color: #00ff00;
+    display: block;
+    width: 40%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #0000ff;
+    margin: 0;
+    z-index: 999;
+    height: 15vh;
 }
+
+#hamburger:checked
+{
+    position: fixed;
+    z-index: 1000;
+}
+
+#hamburgermenu-enabled
+{
+    display: none;
+}
+
+#hamburger-label
+{
+    top: 0;
+    right: 0;
+    position:absolute;
+    margin: 0;
+    z-index: 1000;
+}
+
+/*end hamburger menu*/
