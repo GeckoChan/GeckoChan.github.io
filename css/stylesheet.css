@@ -783,3 +783,14 @@ a:active
 {
     color: #ffff00;
 }
+
+/*begin hamburger menu*/
+#hamburger
+{
+    opacity: 0%;
+}
+
+.hamburger-nav
+{
+    background-color: #00ff00;
+}
